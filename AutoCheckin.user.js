@@ -1,9 +1,9 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name        AutoCheckin
 // @author      Y L
 // @namespace   https://github.com/YandLiu/Userscripts/
 // @include     https://www.repaik.com/plugin.php?id=dsu_paulsign:sign
-// @include     http://ezhanzy.com/thread-3083-1-1.html
+// @include     http://*ezhanzy.com/*
 // @include     http://www.oneplusbbs.com/dsu_paulsign-sign.html
 // @include     http://bbs.gter.net*
 // @run-at      document-end
