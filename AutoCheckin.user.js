@@ -10,7 +10,7 @@
 // @include     https://www.tailsocks.com/user/index.html
 // @include     http://ss.onekeyinstall.com/user/index.php
 // @run-at      document-end
-// @version     1.1
+// @version     1.2
 // @grant       none
 // ==/UserScript==
 
