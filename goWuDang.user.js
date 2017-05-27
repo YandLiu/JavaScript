@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        gwdang
+// @name        goWuDang
 // @namespace   no
 // @description 购物党比价工具
 // @include     http://*.jd.com/*
