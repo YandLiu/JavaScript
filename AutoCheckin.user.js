@@ -32,6 +32,6 @@ window.setTimeout( function () {
         }
     }
     if (ym == "www.tailsocks.com" || ym == "ss.onekeyinstall.com") {
-            document.querySelector('a.btn.btn-success').click();
+            document.querySelector('.btn.btn-success').click();
     }
 }, 2000);
