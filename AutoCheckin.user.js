@@ -19,7 +19,13 @@ window.setTimeout( function () {
     if (ym == "www.repaik.com" || ym == "ezhanzy.com" || ym == "www.oneplusbbs.com" || ym == 'bbs.ntrqq.net') {
         document.querySelector("#todaysay").value = "嘻嘻哈哈";
         document.querySelector("#fd").click();
-        showWindow('qwindow', 'qiandao', 'post', '0');
+        try {
+            document.querySelector('button.pn.pnc').click();
+        }
+        catch (err) {
+            document.querySelector("a[onclick=\'showWindow(\'qwindow\', \'qiandao\', \'post\', \'0\');return false\']").click();
+        }
+        // showWindow('qwindow', 'qiandao', 'post', '0');
     }
     if (ym == "bbs.gter.net") {
         try {
