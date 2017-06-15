@@ -2,7 +2,7 @@
 // @name        ILoveStudy
 // @namespace   Y L
 // @include     *
-// @version     1.1
+// @version     1.2
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==
