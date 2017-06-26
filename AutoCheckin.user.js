@@ -10,7 +10,7 @@
 // @include     https://www.tailsocks.com/user/index.html
 // @include     http://ss.onekeyinstall.com/user/index.php
 // @run-at      document-end
-// @version     1.2
+// @version     1.3
 // @grant       none
 // ==/UserScript==
 
@@ -23,7 +23,7 @@ window.setTimeout( function () {
             document.querySelector('button.pn.pnc').click();
         }
         catch (err) {
-            document.querySelector("a[onclick=\'showWindow(\'qwindow\', \'qiandao\', \'post\', \'0\');return false\']").click();
+            document.querySelector("a[onclick=\"showWindow('qwindow', 'qiandao', 'post', '0');return false\"]").click();
         }
         // showWindow('qwindow', 'qiandao', 'post', '0');
     }
