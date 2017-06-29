@@ -36,8 +36,6 @@ function removeIt() {
                     postsCount++;
                     toBeRemovedPost = y.parentNode.parentNode.parentNode;
                     toBeRemovedPost.parentNode.removeChild(toBeRemovedPost);
-                    // console.log(toBeRemovedUsersList[x] + '\'s post removed!');
-                    // console.log(toBeRemovedPostsCount + ' toBeRemoved posts removed so far.');
                 }
             }
             if (flag)
