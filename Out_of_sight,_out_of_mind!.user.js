@@ -23,7 +23,9 @@ var postsCount = 0;
 var flag = 0;
 var totalList;
 var toBeRemovedPost;
-removeIt();
+document.addEventListener('DOMNodeInserted', function () {
+    removeIt();
+});
 function removeIt() {
     if (document.domain == 'www.firefox.net.cn') {
         totalList = document.querySelectorAll('#J_posts_list p.info>a:first-child');
