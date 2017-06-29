@@ -14,7 +14,7 @@
 // @include     https://*/forum.php?mod=forumdisplay*
 // @include     https://*/forum/viewforum.php?f=*
 // @include     https://*/forum/search.php?*
-// @version     1.1
+// @version     1.2
 // @grant       none
 // ==/UserScript==
 var usersList = ['warb', 'kkmanleg'];
