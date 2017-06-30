@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name        Mod Navigator
-// @namespace   
+// @namespace   https://github.com/YandLiu/Userscripts
 // @description https://www.firefox.net.cn/read-50000-2#read_342792
 // @description https://www.firefox.net.cn/read-49979-1#read_341320
-// @include	http://*
+// @include	    http://*
 // @include     https://ebank.spdb.com.cn/*
 // @include     *://*.baidu.com/*
 // @include     http://5sing.kugou.com/*
