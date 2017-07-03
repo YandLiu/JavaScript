@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         t2s Chinese by XinTongwentang
-// @version      1.2
+// @version      1.3
 // @author       Xin Tongwentang, Y L
 // @namespace    https://github.com/YandLiu/Userscripts
 // @include      *
@@ -3014,7 +3014,3 @@ function convert_simp() {
 }
 
 convert_simp();
-
-document.addEventListener('DOMNodeInserted', function() {
-    convert_simp();
-});
