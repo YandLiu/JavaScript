@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         t2s Chinese by XinTongwentang
-// @version      1.1
+// @version      1.2
 // @author       Xin Tongwentang, Y L
 // @namespace    https://github.com/YandLiu/Userscripts
-// @include       *
+// @include      *
+// @exclude      https://mail.google.com/*
 // @grant        none
 // @description  繁体转化为简体
 // ==/UserScript==
