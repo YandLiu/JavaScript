@@ -3,16 +3,9 @@
 // @author      Y L
 // @namespace   https://github.com/YandLiu/Userscripts/
 // @match       https://zhidao.baidu.com/*
-// @version     1.3
+// @version     1.1
 // @grant       none
 // ==/UserScript==
 document.querySelector('#show-answer-hide').click();
-try {
-    var expandList = document.querySelectorAll('a.expend');
-    for(var i of expandList) i.click();
-}
-catch (e) {}
-try {
-    document.querySelector('.show-answer-dispute').click();
-}
-catch (e) {}
+var expandList = document.querySelectorAll('a.expend');
+for(var i of expandList) i.click();
