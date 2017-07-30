@@ -3,7 +3,6 @@
 // @namespace   https://github.com/YandLiu/Userscripts
 // @description https://www.firefox.net.cn/read-50000-2#read_342792
 // @description https://www.firefox.net.cn/read-49979-1#read_341320
-// @include	    http://*
 // @include     https://ebank.spdb.com.cn/*
 // @include     *://*.baidu.com/*
 // @include     http://5sing.kugou.com/*
@@ -14,7 +13,7 @@
 // @include     *://music.douban.com/*
 // @include     http://music.163.com/*
 // @exclude     http://music.163.com/demo/fm
-// @version     1.0.1
+// @version     1.1
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==
