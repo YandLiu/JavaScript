@@ -8,10 +8,11 @@
 // @include     http://bbs.gter.net*
 // @include     http://bbs.ntrqq.net*
 // @include     https://www.tailsocks.com/user/index.html
+// @include     https://www.shadowsocks5.com/user/index.html
 // @include     http://ss.onekeyinstall.com/user/index.php
 // @include     http://bbs.kafan.cn/*
 // @run-at      document-end
-// @version     1.4
+// @version     1.5
 // @grant       none
 // ==/UserScript==
 
@@ -36,7 +37,7 @@ window.setTimeout(function() {
             hideWindow('dsu_paulsign');
         }
     }
-    if (ym == "www.tailsocks.com" || ym == "ss.onekeyinstall.com")
+    if (ym == "www.tailsocks.com" || ym == "www.shadowsocks5.com")
         document.querySelector('.btn.btn-success').click();
     if (ym == 'bbs.kafan.cn') {
         let el = document.querySelector('.qq_bind');
