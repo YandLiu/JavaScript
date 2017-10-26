@@ -12,7 +12,7 @@
 // @include     http://ss.onekeyinstall.com/user/index.php
 // @include     http://bbs.kafan.cn/*
 // @run-at      document-end
-// @version     1.5
+// @version     1.6
 // @grant       none
 // ==/UserScript==
 
