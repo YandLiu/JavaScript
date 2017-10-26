@@ -41,7 +41,7 @@ window.setTimeout(function() {
         document.querySelector('.btn.btn-success').click();
     if (ym == 'bbs.kafan.cn') {
         let el = document.querySelector('.qq_bind');
-        if (el.src != 'http://a.ikafan.com//plugin/dsu_amupper/images/wb.png')
+        if (el.src != 'https://a.ikafan.com/plugin/dsu_amupper/images/wb.png')
             el.click();
     }
 }, 2000);
