@@ -10,9 +10,9 @@
 // @include     https://www.tailsocks.com/user/index.html
 // @include     https://www.shadowsocks5.com/user/index.html
 // @include     http://ss.onekeyinstall.com/user/index.php
-// @include     http://bbs.kafan.cn/*
+// @include     https://bbs.kafan.cn/*
 // @run-at      document-end
-// @version     1.6
+// @version     1.7
 // @grant       none
 // ==/UserScript==
 
