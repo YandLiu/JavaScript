@@ -14,10 +14,10 @@
 // @include     https://*/forum.php?mod=forumdisplay*
 // @include     https://*/forum/viewforum.php?f=*
 // @include     https://*/forum/search.php?*
-// @version     1.2
+// @version     1.3
 // @grant       none
 // ==/UserScript==
-var usersList = ['warb', 'kkmanleg'];
+var usersList = ['warb', 'kkmanleg', '傳說中的路人Q'];
 var usersCount = 0;
 var postsCount = 0;
 var flag = 0;
