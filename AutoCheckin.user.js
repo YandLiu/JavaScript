@@ -10,6 +10,7 @@
 // @include     https://www.tailsocks.com/user/index.html
 // @include     https://www.shadowsocks5.com/user/index.html
 // @include     http://ss.onekeyinstall.com/user/index.php
+// @include     https://www.packtpub.com/packt/offers/free-learning*
 // @include     https://bbs.kafan.cn/*
 // @run-at      document-end
 // @version     1.7
@@ -43,5 +44,8 @@ window.setTimeout(function() {
         let el = document.querySelector('.qq_bind');
         if (el.src != 'https://a.ikafan.com/plugin/dsu_amupper/images/wb.png')
             el.click();
+    }
+    if (ym == 'www.packtpub.com') {
+        document.querySelector('#free-learning-claim').click();
     }
 }, 2000);
