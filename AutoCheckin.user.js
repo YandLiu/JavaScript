@@ -13,14 +13,15 @@
 // @include     https://www.packtpub.com/packt/offers/free-learning*
 // @include     https://www.tsdm.me/*
 // @include     https://bbs.kafan.cn/*
+// @include     http://bbs.itzmx.com/*
 // @run-at      document-end
-// @version     1.8
+// @version     1.9
 // @grant       none
 // ==/UserScript==
 
 var ym = document.location.hostname;
 window.setTimeout(function() {
-    if (ym == "www.repaik.com" || ym == "ezhanzy.com" || ym == "www.oneplusbbs.com" || ym == 'bbs.ntrqq.net' || ym == 'www.tsdm.me') {
+    if (ym == "www.repaik.com" || ym == "ezhanzy.com" || ym == "www.oneplusbbs.com" || ym == 'bbs.ntrqq.net' || ym == 'www.tsdm.me' || ym == 'bbs.itzmx.com') {
         document.querySelector("#todaysay").value = "嘻嘻哈哈";
         document.querySelector("#fd").click();
         try {

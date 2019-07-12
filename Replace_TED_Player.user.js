@@ -87,5 +87,5 @@ var audio = talkData.talks[0].downloads.audioDownload;
 
 unsafeWindow.ready('#ted-player', function(element) {
     var player = document.querySelector('#ted-player');
-    player.innerHTML = '<video id="#tedVideo" src="' + native_high + '" controls width="100%" height="100%" poster="' + poster + '"></video>';
+    player.outerHTML = '<video id="#tedVideo" src="' + native_high + '" controls width="100%" height="100%" poster="' + poster + '"></video>';
 })
