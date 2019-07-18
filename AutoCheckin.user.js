@@ -23,7 +23,7 @@ var ym = document.location.hostname;
 window.setTimeout(function() {
     if (ym == "www.repaik.com" || ym == "ezhanzy.com" || ym == "www.oneplusbbs.com" || ym == 'bbs.ntrqq.net' || ym == 'www.tsdm.me' || ym == 'bbs.itzmx.com') {
         document.querySelector("#todaysay").value = "嘻嘻哈哈";
-        document.querySelector("#fd").click();
+        document.querySelector("#kx").click();
         try {
             document.querySelector('button.pn.pnc').click();
         } catch (err) {
