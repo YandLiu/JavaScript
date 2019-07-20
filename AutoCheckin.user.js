@@ -15,7 +15,7 @@
 // @include     https://bbs.kafan.cn/*
 // @include     http://bbs.itzmx.com/*
 // @run-at      document-end
-// @version     1.9
+// @version     2.0
 // @grant       none
 // ==/UserScript==
 
