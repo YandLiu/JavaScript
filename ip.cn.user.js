@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name ip.cn
 // @namespace Violentmonkey Scripts
-// @match https://ip.cn/
+// @match https://ip.cn/*
 // @grant none
 // ==/UserScript==
 
