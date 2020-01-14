@@ -14,6 +14,7 @@
 // @include     https://www.tsdm.me/*
 // @include     https://bbs.kafan.cn/*
 // @include     http://bbs.itzmx.com/*
+// @include     https://www.52pojie.cn/*
 // @run-at      document-end
 // @version     2.0
 // @grant       none
@@ -42,9 +43,9 @@ window.setTimeout(function() {
     }
     if (ym == "www.tailsocks.com" || ym == "www.shadowsocks5.com")
         document.querySelector('.btn.btn-success').click();
-    if (ym == 'bbs.kafan.cn') {
+    if (ym == 'bbs.kafan.cn' || ym == 'www.52pojie.cn') {
         let el = document.querySelector('.qq_bind');
-        if (el.src != 'https://a.ikafan.com/plugin/dsu_amupper/images/wb.png')
+        if (el.src != 'https://a.ikafan.com/plugin/dsu_amupper/images/wb.png' && el.src != 'https://www.52pojie.cn/static/image/common/qds.png')
             el.click();
     }
     if (ym == 'www.packtpub.com') {
