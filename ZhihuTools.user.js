@@ -52,12 +52,12 @@ function operate() {
     loadGIF();
 }
 
-window.onload = () => {
-    if (document.location.hostname == "www.zhihu.com") {
+if (document.location.hostname == "www.zhihu.com") {
+    window.onload = () => {
         operate();
     }
 }
 
-window.onscroll = () => {
-    operate();
-};
+    window.onscroll = () => {
+        operate();
+    };
