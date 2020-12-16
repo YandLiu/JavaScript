@@ -15,11 +15,11 @@
     回答: https://www.zhihu.com/question/293750009
 */
 function loadGIF() {
-    // let gifs = document.querySelectorAll(".ztext-gif");
-    // gifs.forEach((i) => {
-    //     i.src = i.src.replace(/jpg$/g, "webp");
-    //     i.parentNode.classList.add("isPlaying");
-    // });
+    let gifs = document.querySelectorAll(".ztext-gif");
+    gifs.forEach((i) => {
+        i.src = i.src.replace(/jpg$/g, "webp");
+        i.parentNode.classList.add("isPlaying");
+    });
 }
 
 /* 置前时间 */
@@ -49,7 +49,7 @@ function operate() {
         document.querySelector("button.QuestionMainAction").click();
     } catch (e) { }
     moveTime();
-    // loadGIF();
+    loadGIF();
 }
 
 window.onload = () => {
