@@ -3,7 +3,7 @@
 // @author      Yandong
 // @namespace   https://github.com/YandLiu/Userscripts
 // @description 置前回答时间、专栏文章发表时间；自动播放GIF; 自动展开被折叠的回答
-// @version     0.11
+// @version     0.12
 // @match       *://*.zhihu.com/*
 // @run-at      document-end
 // @grant       none
@@ -15,11 +15,11 @@
     回答: https://www.zhihu.com/question/293750009
 */
 function loadGIF() {
-    let gifs = document.querySelectorAll(".ztext-gif");
-    gifs.forEach((i) => {
-        i.src = i.src.replace(/jpg$/g, "webp");
-        i.parentNode.classList.add("isPlaying");
-    });
+    // let gifs = document.querySelectorAll(".ztext-gif");
+    // gifs.forEach((i) => {
+    //     i.src = i.src.replace(/jpg$/g, "webp");
+    //     i.parentNode.classList.add("isPlaying");
+    // });
 }
 
 /* 置前时间 */
@@ -43,16 +43,20 @@ function operate() {
     // 展开被折叠的回答
     try {
         document.querySelector(".CollapsedAnswers-bar button").click();
-    } catch (e) {}
+    } catch (e) { }
     // 展开被折叠的更多回答
     try {
         document.querySelector("button.QuestionMainAction").click();
-    } catch (e) {}
+    } catch (e) { }
     moveTime();
-    loadGIF();
+    // loadGIF();
 }
 
-window.onload = operate();
+window.onload = () => {
+    if (document.location.hostname == "www.zhihu.com") {
+        operate();
+    }
+}
 
 window.onscroll = () => {
     operate();
