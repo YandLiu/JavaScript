@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name        雪球港股助手
-// @namespace   Violentmonkey Scripts
+// @namespace   https://github.com/YandLiu/Userscripts/
 // @match       https://xueqiu.com/*
 // @grant       none
 // @version     1.1
-// @author      -
+// @author      Yandong Liu
 // @description 自动刷新实时行情
 // ==/UserScript==
 
