@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name        雪球港股助手
-// @namespace   https://github.com/YandLiu/Userscripts/
+// @namespace   Violentmonkey Scripts
 // @match       https://xueqiu.com/*
 // @grant       none
 // @version     1.1
-// @author      Yandong Liu
+// @author      -
 // @description 自动刷新实时行情
 // ==/UserScript==
 
@@ -14,7 +14,7 @@ try {
         var auto = document.createElement("div");
         auto.innerHTML = "Auto";
         auto.classList.add("stock-issue");
-        auto.style.backgroundColor = "pink";
+        auto.style.backgroundColor = "gold";
         auto.style.color = "black";
         auto.onclick = () => {
             automate = setInterval(() => {
@@ -25,7 +25,7 @@ try {
         var stop = document.createElement("div");
         stop.innerHTML = "Stop";
         stop.classList.add("stock-issue");
-        stop.style.backgroundColor = "pink";
+        stop.style.backgroundColor = "gold";
         stop.style.color = "black";
         stop.onclick = () => {
             clearInterval(automate);
