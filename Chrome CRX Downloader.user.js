@@ -55,10 +55,12 @@
     // 对外暴露ready
     root.ready = ready;
 })(window);
+
 (function () {
     "use strict";
     ready("h1", insert);
 })();
+
 function insert() {
     var link =
         "https://clients2.google.com/service/update2/crx?response=redirect&nacl_arch=" +
