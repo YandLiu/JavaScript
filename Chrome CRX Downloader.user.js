@@ -4,7 +4,7 @@
 // @match       https://chrome.google.com/webstore/detail/*
 // @grant       none
 // @version     1.0
-// @author      Yandong Liu
+// @author      YandLiu
 // @description 4/3/2021, 1:52:08 AM
 // ==/UserScript==
 
