@@ -15,10 +15,10 @@
     回答: https://www.zhihu.com/question/293750009
 */
 function loadGIF() {
-    let gifs = document.querySelectorAll(".ztext-gif");
+    var gifs = document.querySelectorAll(".GifPlayer");
     gifs.forEach((i) => {
-        i.src = i.src.replace(/jpg$/g, "webp");
-        i.parentNode.classList.add("isPlaying");
+        if (i.querySelector("video")) i.querySelector("video").remove();
+        if (i.querySelector("svg")) i.querySelector("svg").remove();
     });
 }
 
@@ -43,11 +43,11 @@ function operate() {
     // 展开被折叠的回答
     try {
         document.querySelector(".CollapsedAnswers-bar button").click();
-    } catch (e) { }
+    } catch (e) {}
     // 展开被折叠的更多回答
     try {
         document.querySelector("button.QuestionMainAction").click();
-    } catch (e) { }
+    } catch (e) {}
     moveTime();
     loadGIF();
 }
@@ -55,9 +55,9 @@ function operate() {
 if (document.location.hostname == "www.zhihu.com") {
     window.onload = () => {
         operate();
-    }
+    };
 }
 
-    window.onscroll = () => {
-        operate();
-    };
+window.onscroll = () => {
+    operate();
+};
